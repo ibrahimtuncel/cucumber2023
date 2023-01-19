@@ -66,6 +66,7 @@ public class Day17_C7_Room_Rezervasyon_Step_Definitions {
         }
          @Then("kullanıcı success mesajını verify eder")
          public void kullanıcı_success_mesajını_verify_eder() throws InterruptedException {
+             Thread.sleep(2000);
         String mesaj=roomReservationPage.successMessage.getText();
         System.out.println(mesaj);
         //Assert.assertTrue(mesaj.contains("inserted successfully"));
@@ -76,7 +77,7 @@ public class Day17_C7_Room_Rezervasyon_Step_Definitions {
 
         roomReservationPage.okButton.click();
 
-    }
+        }
 
     }
 
