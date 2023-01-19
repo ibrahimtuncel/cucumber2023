@@ -28,9 +28,11 @@ Feature: FE1009_room_rezervasyon
 
       Then kullanici login buttonuna click eder
       Then kullanici "Hotel Management" oldugunu very eder
+      Then screenshot yap
 
       Scenario: TC02_kullanici_room_reservation_yapacak
         Given kullanıcı oda rezervasyon sayfasını yönlendirilir
+        Then screenshot yap
 
       Scenario: : TC03_kullanici_bilgilerini_girer
       And kullanıcı tum zorunlu alanları girer
@@ -40,6 +42,7 @@ Feature: FE1009_room_rezervasyon
         And kullanıcı approved checkbox’a click eder
         And kullanıcı paid check box’a click eder
         And kullanıcı save button’una click eder
+        Then screenshot yap
         Then kullanıcı success mesajını verify eder
 
 
