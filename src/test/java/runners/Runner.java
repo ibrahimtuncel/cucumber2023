@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
                 "pretty",
                 "html:target/default-cucumber-reports.html",
                 "json:target/json-reports/cucumber.json",
-               // "junit:target/xml-report/cucumber.xml",
+                "junit:target/xml-report/cucumber.xml",
                 "rerun:target/failedRerun.txt",
         },
         features = "./src/test/resources/Sprint_13.05/Eagles/Day16_C5_US100450_kullanici_manager_kullanici_bilgilerini_kullanarak_login_yapmali.feature",//zorunlu-path girmek gerek

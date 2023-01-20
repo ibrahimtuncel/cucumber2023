@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
                 "pretty",
                 "html:target/default-cucumber-reports.html",
                 "json:target/json-reports/cucumber.json",
-                //"junit:target/xml-report/cucumber.xml",
+                "junit:target/xml-report/cucumber.xml",
                 "rerun:target/failedRerun.txt",
         },
         //run edilen dosyanın path i
