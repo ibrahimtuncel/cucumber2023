@@ -8,6 +8,12 @@ import org.openqa.selenium.TakesScreenshot;
 import utilities.Driver;
 
 public class Hooks {
+    // Cucumber'da hook class ne demektir
+    // hooks Before ve After annotationlari sahiptir
+    // hooks her bir Scenario'dn once (before) veya sonra (After) calisir
+    // @After'da nelerin var?
+    // Cucuber'da @after hooks'da report ve screenShot alirim
+    //Hooks'u ben dizayn ederim ve test scenario basarisiz oldugunda screenShot alirim
     @Before
     public void setUp(){
         System.out.println("Bu bir hooks @After methotudur.");

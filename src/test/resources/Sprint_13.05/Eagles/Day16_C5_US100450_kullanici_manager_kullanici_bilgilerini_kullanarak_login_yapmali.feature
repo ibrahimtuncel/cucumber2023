@@ -2,10 +2,12 @@
 Feature: Login_manager_kullanici_bilgileriyle_deneme
   Scenario Outline:
     Given kullanici application sayfasindadir
+    Then screenshot yap
     And kullanici manager_id "<kullaniciadi>" girer
     And kullanici manager_sifre "<kullanicisifre>" girer
     Then kullanici login buttonuna click eder
     Then kullanici "<default_page>" oldugunu very eder
+    Then screenshot yap
     Then kullanici application kapatir
 
     Examples: Test Data
@@ -21,6 +23,7 @@ Feature: Login_manager_kullanici_bilgileriyle_deneme
       And kullanici admin_sifre "<adminsifre>" girer
       Then kullanici login buttonuna click eder
       Then kullanici "<default_page>" oldugunu very eder
+      Then screenshot yap
       Then kullanici application kapatir
 
       Examples:Admin Test Data
