@@ -10,7 +10,7 @@ Feature: Google_Search_Functionality
     Then kullanici sonuclarda iPhone oldugunu verify eder
     Then kullanici application kapatir
 
-  @regression  @caydanlik
+  @regression @caydanlik
   Scenario: TC02_caydanlik_search
     And kullanici caydanlik'i arar
     Then kullanici sonuclarda caydanlik oldugunu verify eder

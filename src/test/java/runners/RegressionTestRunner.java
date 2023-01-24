@@ -20,6 +20,5 @@ import org.junit.runner.RunWith;
         tags = "@regression",//opsiyoneldir tag kullanılmassa runners tüm featureslari calistirir
         dryRun = false//or true- opsiyoneldir
 )
-
 public class RegressionTestRunner {
 }

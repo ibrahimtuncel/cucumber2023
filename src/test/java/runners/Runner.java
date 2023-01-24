@@ -14,10 +14,11 @@ import org.junit.runner.RunWith;
                 "json:target/json-reports/cucumber.json",
                 "junit:target/xml-report/cucumber.xml",
                 "rerun:target/failedRerun.txt",
+                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
         },
         features = "./src/test/resources/Sprint_13.05/Eagles/Day16_C5_US100450_kullanici_manager_kullanici_bilgilerini_kullanarak_login_yapmali.feature",//zorunlu-path girmek gerek
         glue = "stepdefinitions",//zorunlu kalsor path i girildi
-        tags = "@manager_login_test",//opsiyoneldir tag kullanılmassa runners tüm featureslari calistirir
+        tags = "@login_test",//opsiyoneldir tag kullanılmassa runners tüm featureslari calistirir
         dryRun = false//or true- opsiyoneldir
 )
 

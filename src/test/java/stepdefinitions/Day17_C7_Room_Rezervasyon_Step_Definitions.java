@@ -10,6 +10,7 @@ import pages.LoginPage;
 import pages.RoomReservationPage;
 
 import java.util.List;
+import java.util.Map;
 
 public class Day17_C7_Room_Rezervasyon_Step_Definitions {
     LoginPage loginPage=new LoginPage();
@@ -18,12 +19,22 @@ public class Day17_C7_Room_Rezervasyon_Step_Definitions {
 
     @Given("kullanici manager kullanici bilgilerini girer")
     public void kullanici_manager_kullanici_bilgilerini_girer(DataTable kullaniciBilgileri) {
-    List<String>menajerkullaniciBilgileri =kullaniciBilgileri.row(1);
+        List<String> menajerkullaniciBilgileri = kullaniciBilgileri.row(1);
         //System.out.println(menajerkullaniciBilgileri);
         System.out.println(menajerkullaniciBilgileri.get(0));
         System.out.println(menajerkullaniciBilgileri.get(1));
         loginPage.username.sendKeys(menajerkullaniciBilgileri.get(0));
         loginPage.password.sendKeys(menajerkullaniciBilgileri.get(1));
+
+        //datayı List<List<String>> olarak alma
+        List<List<String>> menajerkullaniciBilgileri2 = kullaniciBilgileri.asLists();
+        System.out.println(menajerkullaniciBilgileri2);
+
+        //List<Map<String,String>> ile map olarak alma
+        List<Map<String,String>> menajerkullaniciBilgileri3=kullaniciBilgileri.asMaps(String.class,String.class);
+        System.out.println(menajerkullaniciBilgileri3);
+
+
     }
     @Given("kullanıcı oda rezervasyon sayfasını yönlendirilir")
     public void kullanıcı_oda_rezervasyon_sayfasını_yönlendirilir() {

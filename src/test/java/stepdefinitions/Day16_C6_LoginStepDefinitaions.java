@@ -55,4 +55,9 @@ public class Day16_C6_LoginStepDefinitaions {
     public void kullanici_admin_sifre_girer(String string) {
        loginPage.password.sendKeys(string);
     }
+
+    @Given("kullanici applicationa excel admin ile login yapar")
+    public void kullanici_applicationa_excel_admin_ile_login_yapar() {
+
+    }
 }
