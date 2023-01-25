@@ -16,9 +16,9 @@ import org.junit.runner.RunWith;
                 "rerun:target/failedRerun.txt",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
         },
-        features = "./src/test/resources/Sprint_13.05/Eagles/Day16_C5_US100450_kullanici_manager_kullanici_bilgilerini_kullanarak_login_yapmali.feature",//zorunlu-path girmek gerek
+        features = "./src/test/resources/homework.feature",//zorunlu-path girmek gerek
         glue = "stepdefinitions",//zorunlu kalsor path i girildi
-        tags = "@login_test",//opsiyoneldir tag kullanılmassa runners tüm featureslari calistirir
+        tags = "@data_Table_Homework",//opsiyoneldir tag kullanılmassa runners tüm featureslari calistirir
         dryRun = false//or true- opsiyoneldir
 )
 

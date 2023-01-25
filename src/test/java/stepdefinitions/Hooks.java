@@ -16,16 +16,18 @@ public class Hooks {
     //Hooks'u ben dizayn ederim ve test scenario basarisiz oldugunda screenShot alirim
     @Before
     public void setUp(){
+
         System.out.println("Bu bir hooks @After methotudur.");
     }
     @After
     public void tearDown(Scenario scenario) {
+        System.out.println("Bu bir hooks @After methotudur.");
         //screen shot almak icin getScreenshotAs metodunu kullandık
-        final byte[] screenshot = ((TakesScreenshot) Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
+        //final byte[] screenshot = ((TakesScreenshot) Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
 
         //screen shot scenario raporun eklenir
-        if (scenario.isFailed()) {
-            scenario.attach(screenshot, "image/png", "screenshot");
-        }
+        //if (scenario.isFailed()) {
+          //  scenario.attach(screenshot, "image/png", "screenshot");
+        //}
     }
 }
