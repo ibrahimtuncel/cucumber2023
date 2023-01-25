@@ -7,6 +7,7 @@ import utilities.Driver;
 
 public class DataTablePage {
     public DataTablePage(){
+
         PageFactory.initElements(Driver.getDriver(),this);
     }
     @FindBy(xpath = "//button[@class='dt-button buttons-create']")

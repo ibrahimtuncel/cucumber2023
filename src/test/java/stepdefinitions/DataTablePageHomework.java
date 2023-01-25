@@ -72,7 +72,7 @@ public class DataTablePageHomework {
 
     @When("kullanıcı tüm fields girer firstname verryf eder")
     public void kullanıcı_tüm_fields_girer_firstname_verryf_eder(DataTable dataTable) {
-        List<String> dataTable1 = dataTable.row(1);
+        /*List<String> dataTable1 = dataTable.row(1);
         System.out.println(dataTable1);
         dataTablePage.firstName.sendKeys(dataTable1.get(0));
         dataTablePage.lastName.sendKeys(dataTable1.get(1));
@@ -86,8 +86,31 @@ public class DataTablePageHomework {
 
         dataTablePage.searchBox.sendKeys(dataTable1.get(0)+ Keys.ENTER);
         ReusableMethods.waitFor(2);
+        Assert.assertTrue(dataTablePage.nameField.getText().contains(dataTable1.get(0)));*/
 
-        Assert.assertTrue(dataTablePage.nameField.getText().contains(dataTable1.get(0)));
+        List<Map<String,String>> dataTable2=dataTable.asMaps(String.class,String.class);
+        System.out.println(dataTable2);
+        for(Map<String,String>dataBilgi:dataTable2){
+            System.out.println(dataBilgi);
+            dataTablePage.newButton.click();
+            dataTablePage.firstName.sendKeys(dataBilgi.get("firstname"));
+            dataTablePage.lastName.sendKeys(dataBilgi.get("lastname"));
+            dataTablePage.position.sendKeys(dataBilgi.get("position"));
+            dataTablePage.office.sendKeys(dataBilgi.get("office"));
+            dataTablePage.extension.sendKeys(dataBilgi.get("extension"));
+            dataTablePage.startDate.click();
+            ReusableMethods.waitFor(1);
+            dataTablePage.startDate.sendKeys(dataBilgi.get("start_date"));
+            dataTablePage.salary.sendKeys(dataBilgi.get("salary"));
+            dataTablePage.createButton.click();
+            ReusableMethods.waitFor(1);
+            dataTablePage.searchBox.sendKeys(dataBilgi.get("firstname")+Keys.ENTER);
+            Assert.assertTrue(dataTablePage.nameField.getText().contains(dataBilgi.get("firstname")));
+            ReusableMethods.waitFor(1);
+            Driver.getDriver().navigate().refresh();
+            ReusableMethods.waitFor(1);
+
+        }
     }
 
     ExcelUtil excelUtil;
@@ -102,17 +125,22 @@ public class DataTablePageHomework {
         System.out.println(testData);
 
         for (Map<String, String> eachData : testData) {//eachData represent each username-password pairs
+            System.out.println(eachData);
+            Driver.getDriver().get(ConfigReader.getProperty("data_table_url"));
+            dataTablePage.newButton.click();
         dataTablePage.firstName.sendKeys(eachData.get("firstname"));
         dataTablePage.lastName.sendKeys(eachData.get("lastname"));
-        dataTablePage.position.sendKeys(eachData.get(excelUtil.getCellData(0,2)));
-        dataTablePage.office.sendKeys(eachData.get(excelUtil.getCellData(0,3)));
+        //dataTablePage.position.sendKeys(eachData.get(excelUtil.getCellData(0,2)));
+            dataTablePage.position.sendKeys(eachData.get("position"));
+        //dataTablePage.office.sendKeys(eachData.get(excelUtil.getCellData(0,3)));
+            dataTablePage.office.sendKeys(eachData.get("office"));
         dataTablePage.extension.sendKeys(eachData.get("extension"));
             dataTablePage.startDate.click();
             ReusableMethods.waitFor(2);
             dataTablePage.dataDay.click();
         dataTablePage.salary.sendKeys(eachData.get("salary"));
-            ReusableMethods.waitFor(2);
-
+            ReusableMethods.waitFor(1);
+            dataTablePage.createButton.click();
             dataTablePage.searchBox.sendKeys(eachData.get("firstname")+ Keys.ENTER);
             Assert.assertTrue(dataTablePage.nameField.getText().contains(eachData.get("firstname")));
 

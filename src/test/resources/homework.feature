@@ -18,6 +18,7 @@ Feature: scenraio_outline
     Given kullanici "<start_date>"  start_date girer
     Given kullanici "<salary>"  salary girer
     When kullanıcı create buttona click eder
+    Then screenshot yap
     And kullanıcı "<firstname>" firstname arar
     Then name fields’in "<firstname>" firstname içerdiğini verify eder
 
@@ -29,16 +30,19 @@ Feature: scenraio_outline
   @datatables_data_table
   Scenario: TC02_Testing_Data_Table_with_dataTables
     Given When kullanıcı datatables adresine gider
-    Given kullanıcı new button’a Click eder
+    Then screenshot yap
+    #Given kullanıcı new button’a Click eder
     When kullanıcı tüm fields girer firstname verryf eder
       | firstname | lastname | position | office | extension | start_date | salary |
-      | ali       | veli     | keeper   | Adana  | 120       | 2023-01-30 | 2050   |
-
-    When kullanıcı create buttona click eder
+      | ali1      | veli     | keeper   | Adana  | 120       | 2023-01-30 | 2050   |
+      | ali2      | karaal   | defance  | Mus    | 201       | 2023-01-29 | 1455   |
+      | ali3      | kar      | libero   | usak   | 302       | 2023-01-28 | 3033   |
+    #When kullanıcı create buttona click eder
 
   @excel_data_tables
   Scenario: TC03_Testing_Data_Table_with_excel
     Given When kullanıcı datatables adresine gider
-    Given kullanıcı new button’a Click eder
+    Then screenshot yap
+   # Given kullanıcı new button’a Click eder
     And kullanıcı excel ile tum field girer verify yapar
-    When kullanıcı create buttona click eder
+    #When kullanıcı create buttona click eder

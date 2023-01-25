@@ -5,45 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e396c731-d5ee-4db4-b19a-214411ea1ab5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DataTablePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/DataTablePageHomework.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ExcelUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/TestData/data_tables_homework.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/TestData/smoketestdata.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/homework.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125020032.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125020037.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125020041.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125024143.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125024145.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125031956.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125032056.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125032226.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125032424.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125040229.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125040400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125040540.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125041526.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125041634.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/GooglePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/GooglePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/Day16_C6_LoginStepDefinitaions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Day16_C6_LoginStepDefinitaions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/Day17_C7_Room_Rezervasyon_Step_Definitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Day17_C7_Room_Rezervasyon_Step_Definitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/Day19_C9_DataTablesStepDefinitions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Day16_C3_scenario_outline_1.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Day16_C3_scenario_outline_1.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125010511.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125010547.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125010612.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125010639.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125010953.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125011019.png" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125024127.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125011033.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125011103.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125012415.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125012429.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/DataTablePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/DataTablePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/DataTablePageHomework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/DataTablePageHomework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/data_tables_homework.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData/data_tables_homework.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/homework.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/homework.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125020032.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125020037.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125020041.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125024127.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125024143.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125024145.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125031956.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125032056.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125032226.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125032424.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125040229.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125040400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125040540.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125041526.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125041634.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,15 +100,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC02_caydanlik_search" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC03_Testing_Data_Table_with_excel" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/firstfeaturefile.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/homework.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="cucumber2023" />
-      <option name="NAME_FILTER" value="^TC02_caydanlik_search$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC02_caydanlik_search$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC02_caydanlik_search" />
+      <option name="NAME_FILTER" value="^TC03_Testing_Data_Table_with_excel$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC03_Testing_Data_Table_with_excel$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC03_Testing_Data_Table_with_excel" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -197,10 +178,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber Java.Scenario: TC03_Testing_Data_Table_with_excel" />
         <item itemvalue="Cucumber Java.Scenario: TC02_Testing_Data_Table_with_dataTables" />
         <item itemvalue="Cucumber Java.Scenario: manajer_login" />
         <item itemvalue="Cucumber Java.Scenario: admin_login" />
-        <item itemvalue="Cucumber Java.Scenario: TC02_caydanlik_search" />
       </list>
     </recent_temporary>
   </component>
