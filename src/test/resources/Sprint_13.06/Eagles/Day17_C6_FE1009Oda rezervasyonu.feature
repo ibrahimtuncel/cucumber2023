@@ -37,7 +37,7 @@ Feature: FE1009_room_rezervasyon
       Scenario: : TC03_kullanici_bilgilerini_girer
       And kullanıcı tum zorunlu alanları girer
         | IDHotelDropDown | IDHotelRoomDropDown | Price | dateStart  | dateEnd    | adultAmount | childAmount | nameSurname | phone          | email          | notes              |verryf |
-        | manager         | ali                 | 700   | 01/25/2023 | 01/29/2023 | 2           | 2           | test        | (850) 258-2565 | test@gmail.com | dataTable ilk test |RoomReservation was inserted successfully |
+        | manager         | ali                 | 700   | 01/27/2023 | 01/29/2023 | 2           | 2           | test        | (850) 258-2565 | test@gmail.com | dataTable ilk test |RoomReservation was inserted successfully |
 
         And kullanıcı approved checkbox’a click eder
         And kullanıcı paid check box’a click eder

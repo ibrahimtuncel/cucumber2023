@@ -5,26 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e396c731-d5ee-4db4-b19a-214411ea1ab5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/staleException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/extent-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/PdfReport/ExtentPdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230126020623.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230126021123.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230126104520.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230126125738.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230126125741.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230126125745.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230127013211.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230127013801.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230127013954.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230127013958.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230127014001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/SparkReport/Spark.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/DataTablePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/DataTablePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/DataTablePageHomework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/DataTablePageHomework.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/data_tables_homework.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData/data_tables_homework.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/homework.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/homework.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125020032.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125020037.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125020041.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125024127.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125024143.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125024145.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125031956.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125032056.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125032226.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125032424.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125040229.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125040400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125040540.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125041526.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/Screenshot_almak20230125041634.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/Day17_C7_Room_Rezervasyon_Step_Definitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Day17_C7_Room_Rezervasyon_Step_Definitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Sprint_13.06/Eagles/Day17_C6_FE1009Oda rezervasyonu.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Sprint_13.06/Eagles/Day17_C6_FE1009Oda rezervasyonu.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,16 +81,15 @@
       <recent name="C:\Users\lenovo\eclipse-workspace\cucumber2023\src\test\resources\TestData" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Runner">
-    <configuration name="Scenario: TC02_Testing_Data_Table_with_dataTables" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.staleException">
+    <configuration name="Feature: deneme" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/homework.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/deneme.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="cucumber2023" />
-      <option name="NAME_FILTER" value="^TC02_Testing_Data_Table_with_dataTables$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC02_Testing_Data_Table_with_dataTables$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC02_Testing_Data_Table_with_dataTables" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: deneme" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -120,46 +121,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: admin_login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Sprint_21_07/Fener/US1000452_Excel_ile_Login.feature" />
-      <option name="GLUE" value="stepdefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="cucumber2023" />
-      <option name="NAME_FILTER" value="^admin_login$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^admin_login$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: admin_login" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: manajer_login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Sprint_21_07/Fener/US1000452_Excel_ile_Login.feature" />
-      <option name="GLUE" value="stepdefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="cucumber2023" />
-      <option name="NAME_FILTER" value="^manajer_login$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^manajer_login$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: manajer_login" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cucumber2023" />
       <extension name="coverage">
@@ -175,13 +136,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="staleException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cucumber2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stepdefinitions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="stepdefinitions.staleException" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="staleException.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cucumber2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stepdefinitions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="stepdefinitions.staleException" />
+      <option name="METHOD_NAME" value="login" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.staleException" />
+        <item itemvalue="JUnit.staleException.login" />
         <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber Java.Feature: deneme" />
         <item itemvalue="Cucumber Java.Scenario: TC03_Testing_Data_Table_with_excel" />
-        <item itemvalue="Cucumber Java.Scenario: TC02_Testing_Data_Table_with_dataTables" />
-        <item itemvalue="Cucumber Java.Scenario: manajer_login" />
-        <item itemvalue="Cucumber Java.Scenario: admin_login" />
       </list>
     </recent_temporary>
   </component>

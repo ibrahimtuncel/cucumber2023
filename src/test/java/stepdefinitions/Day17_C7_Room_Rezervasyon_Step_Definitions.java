@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.Select;
 import pages.DefaultPage;
 import pages.LoginPage;
 import pages.RoomReservationPage;
+import utilities.ReusableMethods;
 
 import java.util.List;
 import java.util.Map;
@@ -55,6 +56,7 @@ public class Day17_C7_Room_Rezervasyon_Step_Definitions {
             //loginPage.username.sendKeys(mapBilgi.get("username));
             //loginPage.password.sendKeys(mapBilgi.get("password));
         }
+        ReusableMethods.waitFor(2);
 
 
     }

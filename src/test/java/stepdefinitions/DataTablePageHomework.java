@@ -145,7 +145,5 @@ public class DataTablePageHomework {
             Assert.assertTrue(dataTablePage.nameField.getText().contains(eachData.get("firstname")));
 
         }
-
     }
-
 }

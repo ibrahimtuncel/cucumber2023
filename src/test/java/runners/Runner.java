@@ -16,9 +16,9 @@ import org.junit.runner.RunWith;
                 "rerun:target/failedRerun.txt",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
         },
-        features = "./src/test/resources/homework.feature",//zorunlu-path girmek gerek
+        features = "./src/test/resources/Sprint_13.06/Eagles/Day17_C6_FE1009Oda rezervasyonu.feature",//zorunlu-path girmek gerek
         glue = "stepdefinitions",//zorunlu kalsor path i girildi
-        tags = "@data_Table_Homework",//opsiyoneldir tag kullanılmassa runners tüm featureslari calistirir
+        tags = "@room_rezarvasyonu",//opsiyoneldir tag kullanılmassa runners tüm featureslari calistirir
         dryRun = false//or true- opsiyoneldir
 )
 
